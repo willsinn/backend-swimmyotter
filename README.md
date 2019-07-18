@@ -1,24 +1,23 @@
-# README
+# **<img src="https://raw.githubusercontent.com/Jeffrey-Marks/swimmy-otter-frontend/master/images/otter-emoji.png" height="30px" width="30px" alt="otter emoji"> Swimmy Otter**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A game of dodging logs and grabbing clocks.
 
-Things you may want to cover:
+**[(Link to Frontend)](https://github.com/Jeffrey-Marks/swimmy-otter-frontend)**
 
-* Ruby version
+## Inspiration
 
-* System dependencies
+I wanted to make a game in vanilla JS and learn about the difference in paradigms between game and web development. Plus, otters are cute.
 
-* Configuration
+## Features
 
-* Database creation
+Returns a user object given a username. If no user exists with that username, creates one with that name and sends it forward.
 
-* Database initialization
+Receives scores from the front end, stores them, and sends forward the scores when requested.
 
-* How to run the test suite
+## Built With
 
-* Services (job queues, cache servers, search engines, etc.)
+* [Ruby on Rails](https://rubyonrails.org/) - Database management library
 
-* Deployment instructions
+## Notes
 
-* ...
+Any resemblance to the name of any notorious mobile game is purely coincidental.
